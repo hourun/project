@@ -1,0 +1,28 @@
+<!-- index.wxml -->
+<view class="container">
+  <!-- <view class='Src' wx:for="{{playList}}"  wx:key="{{index}}">
+    <image src="{{item.url}}"></image>
+    <text class='Location'>经典</text>
+  </view> -->
+
+  <view class='NameBox'>
+
+    <view  wx:for="{{playList}}"  class='Name'  wx:key="{{index}}">
+
+      <text>{{item.musicName}}</text>
+
+    </view>
+
+  </view>
+
+
+  <view wx:for="{{playList}}" class='box'  wx:key="{{index}}" bindtap='click' data-index="{{index}}">
+    <view class='img'>
+      <image src="{{item.url}}" class='images'></image>
+    </view>
+    <view class='text'>
+      <text class='tit'>{{item.musicName}}</text>
+      <text class='author'>{{item.people}}</text>
+    </view>
+  </view>
+</view>

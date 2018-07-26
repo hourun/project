@@ -1,0 +1,10 @@
+<!--pages/detail/detail.wxml-->
+<view >
+    <text class='Name'>{{info.musicName}}</text>
+    <text>{{info.people}}</text> 
+    <image src="{{info.url}}"></image>  
+
+    <button wx:if="{{false}}">点击播放</button>
+    <button wx:elif="{{false}}">点击暂停</button>
+    <button wx:else hover-class='active' class='btn'>点击</button>
+</view>

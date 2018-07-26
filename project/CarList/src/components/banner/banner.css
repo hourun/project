@@ -1,0 +1,35 @@
+.swiperConent{
+  width: 100%;
+  height: 100%;
+  background:#000;
+  position: relative;
+}
+.swiper-container{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide{
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper-list{
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+.swiper-list img{
+  width: 100%;
+ height: 100%;
+  object-fit: contain;
+}
+
+

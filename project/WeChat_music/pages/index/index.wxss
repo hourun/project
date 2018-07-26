@@ -1,0 +1,101 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+  background:rgba(247, 250, 250, 0.014);
+}
+.box{
+  height: 100px;
+  display: flex;
+ border-top: 1px solid #eee;
+ margin-top: 7px;
+
+ 
+  
+}
+.img{
+ width: 24%;
+height: 82px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.images{
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+  border: 2px solid #eee;
+  
+}
+.text{
+  width: 70%;
+  height: 80px;
+   margin-left: 20px;
+
+ 
+}
+.author{
+  display: block;
+  font-size: 28rpx;
+  margin-top: 10px;
+  color: #999;
+
+}
+.tit{
+  display: block;
+    margin-top: 20px;
+    margin-right: 10px;
+      font-size: 30rpx;
+      display:-webkit-box;
+-webkit-box-orient:vertical;
+overflow:hidden;
+text-overflow:ellipsis;
+word-break:break-all;
+-webkit-line-clamp:2;
+  
+}
+.Src{
+  width: 170px;
+  height: 170px;
+  margin:  0 auto;
+  position: relative;
+  
+}
+.Location{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 45px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  top: 45px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid #ccc;
+  display: block;
+  border-radius: 50%;
+}
+.Src image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.NameBox{
+ 
+  width: 100%;
+ height: 300px;
+ 
+}
+.Name{
+  width: 26%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 28rpx;
+margin-left:15.5px; 
+margin-top: 15.5px;
+color: rgb(71, 172, 212);
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid rgb(188, 230, 247);
+  background: rgb(240, 245, 247);
+}

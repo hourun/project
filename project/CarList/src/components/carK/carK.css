@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+a{
+    text-decoration:none;
+}
+.carK{
+    width:100%;
+    height:100%;
+    background:#eee;
+    display:flex;
+    flex-direction:column;
+}
+.carKAll{
+    width:100%;
+    height:0.45rem;
+    background:#fff;
+    text-align:center;
+    line-height:0.45rem;
+    color:rgb(86, 161, 247);
+    font-weight: 900;
+}
+.carCenter{
+    width:100%;
+    flex: 1;
+}
+.centerT{
+    width:100%;
+    height:0.45rem;
+    margin-top:0.06rem;
+    display:flex;
+    flex-direction:row;
+    background:#fff;
+}
+.centerT>p{
+    width:20%;
+    height:0.45rem;
+    text-align:center;
+    line-height:0.45rem;
+}
+.centerC{
+    width:100%;
+}
+.centerO{
+    width:100%;
+}
+.centerO>p{
+    width:100%;
+    height:0.2rem;
+    font-size: 0.11rem;
+    text-indent:0.1rem;
+    line-height:0.2rem;
+}
+.cent{
+    width:100%;
+    height:0.7rem;
+    background:#fff;
+}
+.cent dl{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.cent dl dt{
+    width:70%;
+}
+.cent dl dt h4{
+    font-size:0.13rem;
+    padding:0.1rem 0.1rem;
+}
+.cent dl dt h5{
+    padding-left:0.1rem;
+}
+.cent dl dd{
+    width:30%;
+}
+.cent dl dd h3{
+    font-size:0.13rem;
+    padding:0.1rem 0.1rem;
+    color:red;
+}
+.cent dl dd h6{
+    font-size:0.11rem;
+}
